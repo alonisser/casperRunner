@@ -12,6 +12,7 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-casperjs-plugin": "~1.0.3"
+    "grunt-casperjs-plugin": "~1.0.3",
+    "grunt-peon-gui": "~0.4.0"
   }
 }
