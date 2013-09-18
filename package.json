@@ -1,0 +1,17 @@
+{
+  "name": "casperRunner",
+  "version": "0.0.0",
+  "description": "running casper tests from browser",
+  "main": "index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": "",
+  "author": "Alonisser",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-casperjs-plugin": "~1.0.3"
+  }
+}

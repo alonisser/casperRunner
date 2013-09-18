@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casperjs test runner</title>
+</script>
+<!-- TODO: Add bootstrap/foundation for basic styling-->
+<link rel="stylesheet" type="text/css" media="all" href="css/stylesheet.css"></link>
+</head>
+<body>
+<div id="content">
+    <h1>The casperjs html test runner</h1>
+    <p> The wait is over</p>
+    <div>Casperjs is an awesome project. It enables us to run the headless phantomjs browser(or its Gecko slimerjs companian</div>
+    <div  class="displayonce">
+     <p>Please notice this is based on the experimental FileSytem Api. currently works only with chrom</p>
+     <p>If you use this runner localy (eg: file:///) and not using a webserver you may need to enable the <em> --allow-file-access-from-files</em> flag when running the chrome binary.
+     or just run this using an localserver (eg: apachs, wamp on windows, Whatever)
+     </p>
+     <h2>Setup:</h2>
+     <p>You need npm (implying Node.js), casperjs and phantomjs installed for this to work</p>
+     <p>From the command line (in the project folder): 
+         <div class="code">
+        npm install grunt-cli -g
+        npm install
+        grunt watch
+        </div>
+        <p>Please check Tests are running from the command line before trying the experimental Html test runner</p>
+        <p>Notice you need to setup the files to test in the<em>files</em> key in the casperjs task if not in the default location</p>
+     </p>
+    </div>
+
+
+    <p>refresh to run the test suite</p>
+    <div id="results">
+    No results recorded yet
+    </div>
+    
+</div>
+<footer>Written by Alonisser, based on the awesome casperjs</footer>
+<script type="text/javascript">
+    </script>
+
+</body>
+</html>
